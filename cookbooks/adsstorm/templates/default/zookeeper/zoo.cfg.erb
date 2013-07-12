@@ -1,0 +1,9 @@
+<% (@options || {}).each do |name, value| %>
+    <% if name == 'servers' %>
+        <%  value.each_with_index do |server,index| %>
+server.<%= index %>=<%= server %>
+        <% end %>
+    <% else %>
+<%= name %>=<%= value %>
+    <% end %>
+<% end %>

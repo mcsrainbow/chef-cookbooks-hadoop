@@ -1,0 +1,9 @@
+{
+    "id"       : "dongguo",
+    "gid": "admin",
+    "comment"  : "dongguo",
+    "home"     : "/home/dongguo",
+    "create_user_group":"false",
+    "ssh_keygen": "false",
+    "ssh_keys" : "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+upV++0vIM2PuD2XvH+zOUF6JsfofPCvCdqZ/Wg0GaRvcuPpKs7Ua2APSvtvEz9ohQvexS1DO4G1ZjIO20dsc82BHTFxd3DmZyQ8g/CLoIKIdkDImSffQxBYM//8URvtk16HTmuYVY9poalbVhlErhg0xSbyx/DQfOChfc34T8481iWPZ0pnJLj7z5AUvYR8fcWGtbMhveoyKuB4VocsQvKfgVUauS1jIGGac7kC8XGVc6fEVzzTycS7dTypzHDJp3I9wHWoiMF4SD5MRb0sEhlvaOtryHGVdcfFj4Mrdiu8NepL7yyCb9qGdB7QbT1+hNCnZukWP4Iz6yzATLzSP dongguo@workenv"
+}

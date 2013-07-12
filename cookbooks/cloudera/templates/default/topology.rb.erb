@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+rack_map = { 
+<% @options.each_with_index do |(key, value), counter| %>
+  '<%= key %>' => '<%= value %>'<%= ',' if counter < @options.size - 1 %>
+<% end %>
+}
+
+if rack_map.has_key?(ARGV[0])
+  puts rack_map[ARGV[0]]
+else
+  puts "/F11"
+end
